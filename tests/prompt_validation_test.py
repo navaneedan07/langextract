@@ -410,11 +410,11 @@ class PromptAlignmentValidationTest(parameterized.TestCase):
   def test_unicode_and_special_chars(self):
     """Test handling of unicode characters and special symbols."""
     example = data.ExampleData(
-        text="Patient has cafe-acquired infection & fever (100°F).",
+        text="Patient has café-acquired infection & fever (100°F).",
         extractions=[
             data.Extraction(
                 extraction_class="Diagnosis",
-                extraction_text="cafe-acquired infection",
+                extraction_text="café-acquired infection",
                 attributes={},
             ),
             data.Extraction(
