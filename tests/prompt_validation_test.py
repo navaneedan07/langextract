@@ -421,7 +421,7 @@ class PromptAlignmentValidationTest(parameterized.TestCase):
                 extraction_class="Symptom",
                 extraction_text="fever (100°F)",
                 attributes={},
-            )
+            ),
         ],
     )
 
